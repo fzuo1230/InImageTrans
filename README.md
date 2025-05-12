@@ -18,4 +18,6 @@ First, you need to configure your dataset path in ./utils/constants.py and name 
 
 bash train.sh
 
+# DPO Training
+
 
