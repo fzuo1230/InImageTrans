@@ -30,3 +30,9 @@ DPO training is different from SFT training because we modified it based on hugg
 
 bash train_mdpo.sh
 
+# Reference
+
+You need to set the hyperparameters in infer.sh, including the model path and image path, and then execute the following command:
+
+bash infer.sh
+
