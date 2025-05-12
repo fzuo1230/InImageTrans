@@ -20,4 +20,13 @@ bash train.sh
 
 # DPO Training
 
+DPO training is different from SFT training because we modified it based on huggingface's trl library.
+
+1.If you have huggingface's trl library installed, please uninstall it.
+
+2.Different from the organization of SFT data, DPO training data adds reject_label and reject_image on the basis of SFT data. Please adjust your dataset format accordingly.
+
+3.Similar to SFT Training, you need to adjust the corresponding hyperparameters in train_mdpo.sh, and then run the following command for training:
+
+bash train_mdpo.sh
 
