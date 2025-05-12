@@ -20,7 +20,7 @@ bash train.sh
 
 # DPO Training
 
-DPO training is different from SFT training because we modified it based on huggingface's trl library.
+DPO training is different from SFT training because we modified it in mt_trl based on huggingface's trl library.
 
 1.If you have huggingface's trl library installed, please uninstall it.
 
