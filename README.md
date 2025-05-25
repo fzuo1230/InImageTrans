@@ -2,6 +2,12 @@
 
 This is the official repository of InImageTrans. Our work mainly conducts end-to-end image-text translation tasks based on Multimodal LLM.
 
+# MCiT benchmark
+
+Due to the large amount of our benchmark data that cannot be directly uploaded to GitHub, we have shared a cloud storage link for download. The link to the cloud storage is as follows:
+
+https://pan.baidu.com/s/136AQMNWCJOzMKXenIexT8A?pwd=3991
+
 # Create Environment
 
 conda create -n InImageTrans python=3.10
